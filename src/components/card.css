@@ -1,0 +1,29 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 310px;
+    box-sizing: border-box;
+    align-items: center;
+     box-shadow: 4px 0  10px rgb(130, 0, 206);
+}
+.card p{
+    margin: 6px 0px;
+}
+.card-prices{
+    display: flex;
+    gap: 20px;
+}
+.card{
+    color:rgb(25, 9, 9);
+    font-size: 18px;
+    font-weight: 600;
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+.image{
+    height: 250px;
+    width: 250px;
+}

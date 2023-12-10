@@ -1,38 +1,134 @@
-.App {
+a {
+  text-decoration: none;
+  color: tomato;
+}
+hr {
+  height: 5px;
+  margin-top: 0;
+  color:tomato;
+}
+
+/* ------- header/navbar css ------- */
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  width: 98%;
+  background-color: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.495);
+  color: tomato;
+  padding: 0 20px 0 20px;
+  z-index: 1;
+}
+.navbar {
+  display: flex;
+  gap: 20px;
+}
+.navbar-link {
+  font-size: 3rem;
+  font-weight: 800;
+}
+.navbar-link::after {
+  color: violet;
+}
+#cart {
+  height: 3rem;
+}
+#logo {
+  height: 6rem;
+}
+
+/* ------- hero page clothing card css ------- */
+
+.new-herocontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blueviolet;
+  height: 100vh;
+  border-bottom: 10px solid grey;
+}
+
+.clothing-card-hero {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto 0 auto 0;
+  padding-bottom: 5rem;
+}
+
+.clothing-card {
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+  border: 0;
+  position: relative;
   text-align: center;
+  color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-img {
+  height: 10rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bottom-logo {
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(215, 248, 252);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.product-container {
+  height: 100vh;
+  background-color: rgb(218, 179, 255);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10rem 5rem 10rem 5rem;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  height: 50rem;
+  width: 60rem;
+  border: 1px solid black;
+}
+.product > img {
+  max-height: 40rem;
+  width: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.addBtn {
+  font-size: 2rem;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  color: blueviolet;
+  background-color: #f4a5ff;
+  margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.removeBtn {
+  font-size: 2rem;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  background-color: blueviolet;
+  color: #f4a5ff;
+  margin: 10px;
+}
+
+.deleteBtn {
+  border: none;
+  padding: 10px 20px 10px 20px;
+  margin: 10px;
 }

@@ -1,0 +1,15 @@
+.description{
+ margin: 120px 170px;
+ /* background: linear-gradient(110deg,  rgba(251, 142, 255, 0.599),  rgba(255, 255, 255, 0.562), rgba(207, 142, 232, 0.574)); */
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 25px;
+    color: white;
+    text-shadow: 2px 0 5px black;
+    font-size: 20px;
+    font-weight: 600;
+}

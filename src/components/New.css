@@ -1,0 +1,23 @@
+.new{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 60px;
+    height: 500px;
+    width: auto;
+ 
+}
+.new h1{
+    color: rgba(0, 0, 0, 0.883);
+    font-weight: 800;
+    font-size: 50px;
+}
+.new-items{
+    margin-top: 10px;
+    display: flex;
+    gap: 30px;
+    height: 40px;
+    
+}
