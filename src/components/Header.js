@@ -24,7 +24,7 @@ function Header({ cart }) {
             to="/"
             className="navbar-link"
           >
-            Home {isOpen === "Home" ? <hr></hr> : <></>}
+            Home {isOpen === "Home" ? <hr /> : <></>}
           </Link>
           <Link
             onClick={() => {
@@ -76,17 +76,14 @@ function Header({ cart }) {
             shoes
             {isOpen === "shoes" ? <hr /> : <></>}
           </Link>
-          <Link
-            onClick={() => {
-              setIsOpen("Cart");
-            }}
-            className="navbar-link"
-            to="cart"
-            cart={cart}
-          >
-            Cart{isOpen === "Cart" ? <hr /> : <></>}
-          </Link>
         </nav>
+
+        <Link to="cart" cart={cart}>
+          <img
+            height={100}
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIY0im0meOZnnzeCXPWgHxZA_BMxXn0Hrgn_EHKCjDiY6KQvzBPMoLdhqadMHRt9fWe7A&usqp=CAU"
+          />
+        </Link>
       </div>
     </>
   );

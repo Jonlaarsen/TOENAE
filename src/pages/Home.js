@@ -26,8 +26,8 @@ const Home = () => {
         ))} */}
       </div>
       <div>
-        <Popular />
         <New />
+        <Popular />
         <NewsLetter />
       </div>
 

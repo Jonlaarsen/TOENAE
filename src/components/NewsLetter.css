@@ -8,15 +8,15 @@
     margin: auto;
     padding: 0 110px;
     margin-bottom: 100px;
-    background: linear-gradient(180deg, white , rgb(208, 38, 255) );
+    background: linear-gradient(180deg, white , rgb(96, 93, 96) );
     gap: 30px;
     /* box-shadow: 10px 0 10px 5px rgb(130, 0, 206); */
 }
 
 .newsletter h1 {
-    color: black;
+    color: rgb(44, 44, 44);
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .newsletter p{

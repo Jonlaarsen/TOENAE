@@ -7,6 +7,7 @@ const New = () => {
   return (
     <div className="new">
       <h1>NEW</h1>
+      <hr />
       <div className="new-items">
         {NewProducts.map((product, i) => {
           return (

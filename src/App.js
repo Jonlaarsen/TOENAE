@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import { Route, Routes } from "react-router-dom";
 import SingelProductPage from "./pages/SingelProductPage";
 import Cart from "./pages/Cart";
-import { useState } from "react";
+
 import ShopCategory from "./pages/ShopCategory";
 import { ShopContextProvider } from "./context/ShopContext";
 

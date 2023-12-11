@@ -1,15 +1,16 @@
 import React from "react";
 import "./popular.css";
-import { Products } from "../data/Products";
+
 import Card from "./Card";
+import AllProducts from "../data/Allproducts";
 
 const Popular = () => {
   return (
     <div className="popular">
-      <h1>POPULAR</h1>
+      <h1>ALL</h1>
       <hr></hr>
       <div className="popular-item">
-        {Products.map((product, i) => {
+        {AllProducts.map((product, i) => {
           return (
             <Card
               key={i}
